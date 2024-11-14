@@ -1,0 +1,4 @@
+aiohttp
+cloudscraper
+loguru
+fake-useragent
