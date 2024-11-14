@@ -1,49 +1,38 @@
-# UPDATE
-![photo_2024-11-14_05-57-39](https://github.com/user-attachments/assets/d6e5bb3e-26c9-43a7-a8ab-b5c9a78b80fb)
+# Nodepay Auto Farming
+Feature:
+- Can running with proxy or Without proxy
+- Can mining multi account
 
-# BOT NODEPAY AUTO FARMING
-- MULTI AKUN
-- FIXED ERROR
+### Requirements
+- Python3.10 or higher
+- Pip3
+- Python Environment
 
-# Register Nodepay
-- https://app.nodepay.ai/register?ref=55vzBVxmyYouwN2
+# Setup Tutorial
+- Open [Nodepay](https://app.nodepay.ai/register?ref=ZUCBuJaIoBXLE6J) and login to dashboard
+- Right click and **inspect**
+- Select Console
+```
+localStorage.getItem('np_token')
+```
+⚠️ If you can't paste in the console, please type manually ```allow pasting```
 
-# Recomended proxy for nodepay, Residential 5$ 5gb
-- https://dataimpulse.com/?aff=70583
-
-# Proxy disini juga bagus bagus
-- https://app.proxy-cheap.com/r/MmMWVu
-
-# Pake free proxy dari proxyscrape juga bisa, residential 1$ ERROR!
-- https://dashboard.proxyscrape.com/sign-up (United States)
-
-# Format proxy http paket biar cepet
-- https://t.me/formatproxyhttpbot
-
-# HOW TO RUN
+# Installation
 ```
-git clone https://github.com/AirdropFamilyIDN-V2-0/nodepay.git
-```
-```
-cd nodepay
-```
-```
-pip install -r requirements.txt
-```
-```
-python run_proxy.py
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/nodepay-multi-account/main/quick-installation.sh)
 ```
 
-# isi tokens.txt dengan token nodepaymu
-- example format
-- token1
-- token2
+#### Run command
+✅ If you're using a proxy
+```
+python3 run_proxy.py
+```
+⚠️ If you're not using a proxy
+```
+python3 noproxy.py
+```
 
-# how to get tokens
-- https://github.com/ylasgamers/nodepay/blob/main/getnptoken.md
-
-# isi local_proxies.txt dengan proxymu
-- example format
+# Format Proxy
 - http://ip:port
 - http://user:pass@ip:port
 
